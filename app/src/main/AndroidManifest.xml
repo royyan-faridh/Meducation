@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Meduction">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".community.adapter.ReplyAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".community.ui.ThreadDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.ui.AddThreadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.adapter.ThreadAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".community.ui.CommunityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MateriDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdukasiDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".consultation.ui.DoctorAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".consultation.ui.ConsultationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdukasiAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".BeritaAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ItemCard"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

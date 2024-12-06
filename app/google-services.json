@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "9702647304",
+    "project_id": "meduction-8a6c1",
+    "storage_bucket": "meduction-8a6c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9702647304:android:6ea4ae6bcdaebb908a13bd",
+        "android_client_info": {
+          "package_name": "com.example.meduction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9702647304-hf0nr2t2547j91v2qo9275qjsfv1c8bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meduction",
+            "certificate_hash": "c03ca3c1627e3e7a460b6f0e5a694da26e99c15b"
+          }
+        },
+        {
+          "client_id": "9702647304-r6loee4r3grrtdf9026hu1q1ioqie55p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQkR17-qcRR3FAdktWE__aVIUN4VTjlZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9702647304-r6loee4r3grrtdf9026hu1q1ioqie55p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

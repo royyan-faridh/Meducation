@@ -1,0 +1,20 @@
+<resources>
+    <color name="background_color">#F9F9F9</color>
+    <color name="primary_color">#FF4081</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="text_color_secondary">#7D7D7D</color>
+    <color name="icon_color">#B0B0B0</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#6200EE</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_700">#00796B</color> <!-- You can adjust this color code if needed -->
+    <color name="black">#000000</color>
+    <color name="semi_transparent_white"> #80FFFFFF </color>
+</resources>

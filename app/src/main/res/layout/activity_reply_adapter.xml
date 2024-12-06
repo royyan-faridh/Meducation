@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/rounded_edittext"
+    android:layout_marginBottom="8dp">
+
+    <!-- Nama Penulis -->
+    <TextView
+        android:id="@+id/tvReplyAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dibalas oleh: Penulis"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Tanggal Balasan -->
+    <TextView
+        android:id="@+id/tvReplyDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Balasan"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
+
+    <!-- Isi Balasan -->
+    <TextView
+        android:id="@+id/tvReplyContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi balasan akan ditampilkan di sini."
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

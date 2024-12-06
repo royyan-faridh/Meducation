@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title of the Material -->
+    <TextView
+        android:id="@+id/materiTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Material Description -->
+    <TextView
+        android:id="@+id/materiDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/materiTitle"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Material Image -->
+    <ImageView
+        android:id="@+id/materiImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/materiDescription"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Material Count -->
+    <TextView
+        android:id="@+id/materialCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Count"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/materiImageView"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

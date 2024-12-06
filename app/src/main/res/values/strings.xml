@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meduction</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="title_activity_navigation_bottom">NavigationBottom</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="month_placeholder">Oktober 2024</string>
+</resources>

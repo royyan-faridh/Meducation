@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/nav_consultation"
+        android:icon="@drawable/ic_consultation"
+        android:title="Konsultasi" />
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/ic_community"
+        android:title="Komunitas" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_circle"
+        android:title="Akun" />
+</menu>
